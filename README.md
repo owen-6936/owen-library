@@ -1,0 +1,3 @@
+# Owen-Library
+
+Owen Library is a full-stack web application offering personalized movie and book recommendations alongside an integrated video player. The user interface is developed with React and TypeScript, utilizing Vite for rapid development and optimized builds, and styled with SCSS for enhanced CSS capabilities. The backend is constructed using Node.js and the Express.js framework, responsible for handling API requests, implementing recommendation algorithms, and managing data. MongoDB serves as the primary database for storing and retrieving information about movies, books, and potentially user-related content.
