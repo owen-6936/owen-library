@@ -1,6 +1,6 @@
-import { render, screen } from "@testing-library/react";
+import { cleanup, render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router";
-import { describe, test, expect } from "vitest";
+import { describe, test, expect, afterEach } from "vitest";
 // Importing jest-dom to extend matchers
 import "@testing-library/jest-dom";
 import React from "react";
@@ -32,5 +32,6 @@ function testAllNavigation() {
 }
 
 describe("Routing system should navigate correctly", () => {
+  afterEach(() => cleanup());
   testAllNavigation();
 });
