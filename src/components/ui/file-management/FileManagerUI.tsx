@@ -1,12 +1,17 @@
 import { JSX } from "react";
-
-export const FileMgrJSXElement = (
-  <div className="file-manager-ui" data-testid="file-manager-ui">
-    <h1>File Manager UI</h1>
-    <p>This is a placeholder for the File Manager UI component.</p>
-  </div>
-);
+import "../../../styles/file-manager.scss";
+import NavBar from "../common/Navbar";
 
 export default function FileManagerUI(): JSX.Element {
-  return FileMgrJSXElement;
+  return (
+    <>
+      <NavBar />
+      <div className="file-manager" data-testid="file-manager-ui">
+        <h2>File Manager UI</h2>
+        <p>
+          This is a temporary placeholder for the main File Manager interface.
+        </p>
+      </div>
+    </>
+  );
 }

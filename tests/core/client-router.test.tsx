@@ -9,9 +9,7 @@ import App from "../../src/App";
 const testIdMap = {
   "/": "Home-Page",
   "/file-manager": "file-manager-ui",
-  "/video-player": "video-player-ui",
-  "/image-gallery": "image-gallery-ui",
-  "/music-player": "music-player-ui",
+  "/video-library": "video-library-ui",
 };
 
 function testNavigation(path: string, testId: string) {

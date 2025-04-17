@@ -3,9 +3,8 @@ import "./App.scss";
 import Home from "./components/ui/Home.tsx";
 import { Route, Routes } from "react-router";
 import FileManagerUI from "./components/ui/file-management/FileManagerUI.tsx";
-import MusicPlayerUI from "./components/ui/audio/MusicPlayerUI.tsx";
-import ImageGalleryUI from "./components/ui/image/ImageGalleryUI.tsx";
-import VideoPlayerUI from "./components/ui/video/VideoPlayerUI.tsx";
+import ImageLibraryUI from "./components/ui/image/ImageLibraryUI.tsx";
+import VideoLibraryUI from "./components/ui/video/VideoLibraryUI.tsx";
 
 function App(): JSXElement {
   {
@@ -13,9 +12,8 @@ function App(): JSXElement {
       <Routes>
         <Route element={<Home />} path="/"></Route>
         <Route element={<FileManagerUI />} path="/file-manager"></Route>
-        <Route element={<VideoPlayerUI />} path="/video-player"></Route>
-        <Route element={<ImageGalleryUI />} path="/image-gallery"></Route>
-        <Route element={<MusicPlayerUI />} path="/music-player"></Route>
+        <Route element={<VideoLibraryUI />} path="/video-library"></Route>
+        <Route element={<ImageLibraryUI />} path="/image-gallery"></Route>
       </Routes>
     );
   }

@@ -1,0 +1,23 @@
+{
+  "name": "owen-library-server",
+  "version": "1.0.0",
+  "description": "This is the server that communicates with the owen library client side application for file system management, fetching and recieving data from endpointsThis server-side component facilitates communication with the 'owen library' client application to enable file system management. It handles fetching data from and receiving data at defined endpoints.",
+  "license": "ISC",
+  "author": "Owen Erhabor",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:watch": "nodemon server.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "drivelist": "^12.0.2",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1"
+  }
+}

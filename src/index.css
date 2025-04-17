@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root,
+#root,
+body {
+  font: 1rem poppins;
+  margin: 0;
+  height: 100%;
+}
